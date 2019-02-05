@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PickPriceAdmin</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="pick_price_splash">P I C K P R I C E</string>
+    <string name="add_category">Add Category</string>
+    <string name="add_brand">Add Brand</string>
+    <string name="btnAdd">ADD</string>
+    <string name="edt_enter_category_name">Enter Category Name</string>
+    <string name="edt_enter_brand_name">Enter Brand Name</string>
+    <string name="iv_cancel_add_category">iv_cancel_add_category</string>
+    <string name="category_not_available">Categories are not available</string>
+    <string name="brand_not_available">Brands are not available</string>
+    <string name="customer_not_available">Customers are not available</string>
+    <string name="dealer_not_available">Dealers are not available</string>
+    <string name="blocking_prompt">Select block status</string>
+    <string name="logout">Logout</string>
+    <string name="toolbar_contact_title">Contact</string>
+    <string name="currency">\u20B9</string>
+    <string-array name="blocking_array">
+        <item>Block</item>
+        <item>Unblock</item>
+    </string-array>
+
+    <string name="base_url">https://efunhub.com/pickprice/webapi/</string>
+</resources>

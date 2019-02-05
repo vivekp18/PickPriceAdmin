@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/left_radius_background"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_name" />
+
+                <EditText
+                    android:id="@+id/edtProfileName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_radius_background"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/antic"
+                    android:gravity="start|center_vertical"
+                    android:hint="Name"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:inputType="text"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/left_radius_background"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_profile" />
+
+                <EditText
+                    android:id="@+id/edtProfileUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_radius_background"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/antic"
+                    android:gravity="start|center_vertical"
+                    android:hint="Username"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:inputType="text"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/left_radius_background"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_email" />
+
+                <EditText
+                    android:id="@+id/edtProfileEMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_radius_background"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/antic"
+                    android:gravity="start|center_vertical"
+                    android:hint="E-Mail"
+                    android:inputType="textEmailAddress"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="10dp"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/left_radius_background"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_contact" />
+
+                <EditText
+                    android:id="@+id/edtProfileContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_radius_background"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/antic"
+                    android:gravity="start|center_vertical"
+                    android:hint="Contact"
+                    android:inputType="phone"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="10dp"
+                    android:maxLength="10"
+                    android:textColor="@android:color/white"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnProfileSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_ripple_background"
+            android:fontFamily="@font/antic"
+            android:text="Save"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp" />
+    </FrameLayout>
+</LinearLayout>

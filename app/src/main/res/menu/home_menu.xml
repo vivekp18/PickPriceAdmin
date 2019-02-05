@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.MainActivity">
+    <item
+        android:id="@+id/action_notification1"
+        android:icon="@drawable/ic_options"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/item_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Profile"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/item_setting"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
+
+
+
